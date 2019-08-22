@@ -2,6 +2,7 @@
 
 A Moodle PHP FPM environment configured for Moodle deployment based on the [Official Moodle PHP Apache image](https://hub.docker.com/r/moodlehq/moodle-php-apache).
 
+NB: Moodle is not included in this image, just PHP-fpm + extensions
 
 # Features
 
@@ -15,4 +16,3 @@ To faciliate testing and easy setup the following directories are created and ow
 * `/var/www/phpunitdata`
 * `/var/www/behatdata`
 * `/var/www/behatfaildumps`
-
