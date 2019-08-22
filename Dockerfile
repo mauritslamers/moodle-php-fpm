@@ -1,4 +1,4 @@
-FROM php:7.2-apache-buster
+FROM php:7.2-fpm
 
 ADD root/ /
 # Fix the original permissions of /tmp, the PHP default upload tmp dir.
